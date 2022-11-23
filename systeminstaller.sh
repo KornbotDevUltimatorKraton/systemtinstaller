@@ -19,3 +19,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable RoboreactorGenFlow.service
 sudo systemctl restart RoboreactorGenFlow.service 
 sudo systemctl status RoboreactorGenFlow.service
+
+sudo systemctl daemon-reload 
+sudo systemctl enable Remote_request_config.service
+sudo systemctl restart Remote_request_config.service
+sudo systemctl status Remote_request_config.service
